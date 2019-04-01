@@ -1,0 +1,376 @@
+/***************tablets**************/
+/***************portrait*************/
+@media screen
+and ( max-width: 1024px )
+and ( orientation: portrait ) {
+/***************navigation***********/
+.contact-link {
+  margin-right: 3rem;
+}
+
+/***************work*****************/
+/***************connect**************/
+.connect {
+  height: 100%;
+  padding: 5.1rem 0 5.5rem 0;
+}
+
+.projects-wrapper {
+  margin-top: 5.5rem;
+}
+
+.projects-wrapper,
+.connect-wrapper,
+.row-one,
+.row-two {
+  flex-wrap: wrap;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+  margin-right: 3rem;
+  width: 25rem;
+}
+
+.img-two,
+.img-four {
+  margin-right: 0;
+}
+
+.connect-wrapper {
+  margin: -0.6rem 0 -2rem 0;
+}
+
+.circle {
+  margin: 4rem;
+}
+
+.connect-link {
+  top: 5.4rem;
+}
+}
+
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1023px )
+and ( orientation: portrait ) {
+/***************work*******************/
+/***************connect****************/
+.connect {
+  padding-top: 4rem;
+}
+
+.projects-wrapper {
+  margin-top: 3.5rem;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+  width: 17.2rem;
+}
+
+.circle {
+  margin: 3rem;
+}
+}
+
+/***************mobile***************/
+/***************portrait*************/
+@media screen
+and ( min-width: 300px )
+and ( max-width: 767px )
+and ( orientation: portrait ) {
+/***************navigation***************/
+.nav-list {
+  float: none;
+  justify-content: center;
+  margin: 1.25rem -0.7rem 0 0;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.about-link,
+.work-link {
+  margin-right: 1rem;
+}
+
+/***************about*****************/
+.intro-name {
+  font-size: 1.9rem;
+}
+
+.intro-para {
+  font-size: 1.1rem;
+}
+
+/***************work*****************/
+/***************connect**************/
+.projects,
+.connect {
+  padding-top: 4rem;
+}
+
+.projects-title,
+.connect-title {
+  font-size: 1.7rem;
+}
+
+.projects-wrapper,
+.connect-wrapper,
+.row-three,
+.row-four {
+  flex-direction: column;
+  margin: auto;
+}
+
+.img-one {
+  margin-top: 0.5rem;
+}
+
+.img-one,
+.img-three {
+  margin-right: 0;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+  width: 90%;
+}
+
+.github-container {
+  margin-top: 1.8rem;
+}
+
+.circle {
+  height: 11rem;
+  width: 11rem;
+}
+
+.connect-link {
+  font-size: 1.15rem;
+  top: 4.6rem;
+}
+
+.facebook-container,
+.twitter-container,
+.email-container {
+  margin-top: -1rem;
+}
+
+.email-container {
+  margin-bottom: -1rem;
+}
+}
+
+@media screen
+and ( max-width: 374px )
+and ( orientation: portrait ) {
+/***************navigation***************/
+.nav-link {
+  font-size: 0.9rem;
+}
+}
+
+/***************tablets***************/
+/***************landscape*************/
+@media screen
+and ( min-width: 300px )
+and ( max-width: 1400px )
+and ( orientation: landscape ) {
+/***************navigation***************/
+.nav-list {
+  margin-top: 1.25rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.about-link,
+.work-link {
+  margin-right: 1.7rem;
+}
+
+.contact-link {
+  margin-right: 3rem;
+}
+
+/***************work*****************/
+.projects,
+.connect {
+  padding-top: 4rem;
+}
+
+.projects-wrapper {
+  margin: 2rem 1rem;
+}
+
+.projects-title,
+.connect-title {
+  font-size: 1.7rem;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+  height: 70%;
+}
+
+.project-name {
+  font-size: 1rem;
+}
+
+.more-container {
+  margin-top: -1rem;
+}
+
+/***************connect***************/
+.connect {
+  height: 100%;
+  padding-bottom: 7rem;
+}
+
+.connect-wrapper {
+  margin-top: 2.4rem;
+}
+
+.circle {
+  height: 10rem;
+  margin-right: 2.2rem;
+  width: 10rem;
+}
+
+.connect-link {
+  font-size: 1.1rem;
+  top: 4.2rem;
+}
+
+.email-container {
+  margin-right: 0;
+}
+}
+
+@media screen
+and ( min-width: 1024px )
+and ( max-width: 1400px )
+and ( orientation: landscape ) {
+/***************work***************/
+.projects-wrapper {
+  margin: 2.5rem 1rem;
+}
+
+.more-container {
+  margin-top: -3.5rem;
+}
+}
+
+@media screen
+and ( min-width: 731px )
+and ( max-width: 811px )
+and ( orientation: landscape ) {
+/***************work***************/
+/***************connect************/
+.circle {
+  height: 9rem;
+  margin-right: 1.5rem;
+  width: 9rem;
+}
+
+.connect-link {
+  font-size: 1rem;
+  top: 3.7rem;
+}
+
+.email-container {
+  margin-right: 0;
+}
+}
+
+@media screen
+and ( min-width: 640px )
+and ( max-width: 730px )
+and ( orientation: landscape ) {
+/***************navigation***************/
+.nav-list {
+  margin-right: -0.8rem;
+}
+
+.about-link,
+.work-link {
+  margin-right: 1.3rem;
+}
+
+/***************work***************/
+/***************connect************/
+.project-name {
+  font-size: 0.8rem;
+}
+
+.more-link {
+  height: 2.6rem;
+  padding-top: 0.6rem;
+  width: 5.3rem;
+}
+
+.circle {
+  height: 8rem;
+  margin-right: 1.3rem;
+  width: 8rem;
+}
+
+.connect-link {
+  font-size: 1rem;
+  top: 3.2rem;
+}
+
+.email-container {
+  margin-right: 0;
+}
+}
+
+@media screen
+and ( max-width: 639px )
+and ( orientation: landscape ) {
+/***************navigation***************/
+.nav-links {
+  margin-right: -0.3rem;
+}
+
+.contact-link {
+  margin-right: 2.5rem;
+}
+
+/***************work******************/
+/***************connect***************/
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+  height: 60%;
+  width: 94%;
+}
+
+.circle {
+  height: 7rem;
+  margin-right: 1rem;
+  width: 7rem;
+}
+
+.connect-link {
+  font-size: 1rem;
+  top: 2.7rem;
+}
+
+.email-container {
+  margin-right: 0;
+}
+}

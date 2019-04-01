@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="personal portfolio with projects and contact information responsive design">
+  <meta name="keywords" content="personal portfolio, portfolio, portfolio website, developer portfolio, responsive, mobile-friendly">
+  <meta name="author" content="Jennifer Nguyen">
+  <title>Portfolio: Jennifer Nguyen</title>
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<!-- navigation with links -->
+<nav class="nav-wrapper">
+  <ul class="nav-list">
+    <li class="nav-links">
+      <a class="nav-link about-link" id="about-scroll" href="#">About</a>
+    </li>
+    <li class="nav-links">
+      <a class="nav-link work-link" id="projects-scroll" href="#">Featured Work</a>
+    </li>
+    <li class="nav-links">
+      <a class="nav-link contact-link" id="connect-scroll" href="#">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<main class="main-wrapper">
+  <!-- about section -->
+  <section class="about" data-name="about-scroll">
+    <div class="name-para-container">
+      <h1 class="intro-name" tabindex="0">Hi, I'm Jennifer.</h1>
+      <p class="intro-para" tabindex="0">a front end developer</p>
+    </div>
+  </section>
+
+  <!-- projects section -->
+  <section class="projects" data-name="projects-scroll">
+    <h2 class="projects-title" tabindex="0">Featured Work</h2>
+    <div class="projects-wrapper">
+      <div class="row-one">
+        <div class="project-one">
+          <a class="img-link" href="https://jenwin.github.io/matching-card-game/">
+            <img class="img-one" src="img/jenwin-matching-card-game.jpg" alt="click to play the matching card game">
+          </a>
+          <a class="img-link" href="https://github.com/jenwin/matching-card-game">
+            <p class="project-name">Matching Card Game</p>
+          </a>
+        </div>
+        <div class="project-two">
+          <a class="img-link" href="https://jenwin.github.io/classic-arcade-game/">
+            <img class="img-two" src="img/jenwin-arcade-game.jpg" alt="click to play the classic arcade game">
+          </a>
+          <a class="img-link" href="https://github.com/jenwin/classic-arcade-game">
+            <p class="project-name">Classic Arcade Game</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="row-two">
+        <div class="project-three">
+          <a class="img-link" href="https://github.com/jenwin/feed-reader-testing">
+            <img class="img-three" src="img/jenwin-feedreader.jpg" alt="check out my feed reader testing project">
+          </a>
+          <a class="img-link" href="https://github.com/jenwin/feed-reader-testing">
+            <p class="project-name">Feedreader Testing</p>
+          </a>
+        </div>
+        <div class="project-four">
+          <a class="img-link" href="https://github.com/jenwin/restaurant-reviews-stage-one">
+            <img class="img-four" src="img/jenwin-restaurant-reviews.jpg" alt="find a nearby restaurant with this app">
+          </a>
+          <a class="img-link" href="https://github.com/jenwin/restaurant-reviews-stage-one">
+            <p class="project-name">Restaurants Review App</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- button -->
+    <div class="more-container">
+      <a role="button" class="more-link" href="https://www.github.com/jenwin/">
+        MORE
+     </a>
+    </div>
+  </section>
+
+  <!-- how to contact me -->
+  <section class="connect" data-name="connect-scroll">
+    <h2 class="connect-title" tabindex="0">Let's connect</h2>
+      <div class="connect-wrapper">
+        <div class="row-three">
+          <div class="circle github-container">
+            <a class="connect-link" target="_blank" href="https://www.github.com/jenwin">Github</a>
+          </div>
+          <div class="circle facebook-container">
+            <a class="connect-link" target="_blank" href="#">Facebook</a>
+          </div>
+        </div>
+        <div class="row-four">
+          <div class="circle twitter-container">
+            <a class="connect-link" target="_blank" href="#">Twitter</a>
+          </div>
+          <div class="circle email-container">
+            <a class="connect-link" target="_blank" href="#">Email</a>
+          </div>
+        </div>
+      </div>
+  </section>
+</main>
+
+<footer class="author-info" tabindex="0">
+  <p class="author-copyright">© Jennifer Nguyen</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
